@@ -7,7 +7,7 @@ arr = [random.randint(1, 1000000) for _ in range(5000)]
 def ordenamiento_burbuja(arr):
     n = len(arr)
     for i in range(n - 1):  
-        for j in range(n - 1):  # Optimización del bucle interno
+        for j in range(n - 1): 
             if arr[j] > arr[j + 1]: 
                 aux = arr[j] 
                 arr[j] = arr[j + 1]
