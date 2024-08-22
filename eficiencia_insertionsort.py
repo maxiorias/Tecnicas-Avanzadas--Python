@@ -25,7 +25,5 @@ end_time = time.time()
 
 execution_time = end_time - start_time
 
-
-
 print("Tiempo de ejecución: ", execution_time, "segundos")
 
