@@ -1,10 +1,10 @@
 def busqueda_lineal(lista, objetivo):
     for i in range(len(lista)):
         if lista[i] == objetivo:
-            return i  # Devuelve la posición del elemento encontrado
-    return -1  # Si no se encuentra el elemento, devuelve -1
+            return i              # Devuelve la posición del elemento encontrado
+    return -1                     # Si no se encuentra el elemento, devuelve -1
 
-# Ejemplo de uso
+
 lista = [1, 2, 4, 5, 7, 8]
 objetivo = 5
 resultado = busqueda_lineal(lista, objetivo)

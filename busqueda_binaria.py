@@ -4,7 +4,7 @@ n = len(lista)
 
 # Ordenamiento de burbuja
 for i in range(n - 1):  
-    for j in range(n - 1 - i):  
+    for j in range(n - 1): 
         if lista[j] > lista[j + 1]: 
             aux = lista[j]
             lista[j] = lista[j + 1]
@@ -20,15 +20,15 @@ def busqueda_binaria(lista, x):
         medio = (inicio + fin) // 2
         
         if lista[medio] == x:
-            return medio  # Elemento encontrado, devuelve la posición
-        elif lista[medio] < x:
-            inicio = medio + 1  # Busca en la mitad derecha
+            return medio  
+        elif lista[medio] < x:  
+            inicio = medio + 1  
         else:
-            fin = medio - 1  # Busca en la mitad izquierda
+            fin = medio - 1  
 
-    return -1  # Elemento no encontrado
+    return -1                
 
-# Ejemplo de uso
+
 objetivo = 23
 resultado = busqueda_binaria(lista, objetivo)
 if resultado != -1:
