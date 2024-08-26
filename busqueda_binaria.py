@@ -1,7 +1,6 @@
 # Lista desordenada
 lista = [1, 6, 78, 23, 76, 0, 4]
 n = len(lista)
-
 # Ordenamiento de burbuja
 for i in range(n - 1):  
     for j in range(n - 1): 
@@ -27,7 +26,6 @@ def busqueda_binaria(lista, x):
             fin = medio - 1  
 
     return -1                
-
 
 objetivo = 23
 resultado = busqueda_binaria(lista, objetivo)
