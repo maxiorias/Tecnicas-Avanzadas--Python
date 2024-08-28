@@ -35,3 +35,5 @@ print(personas.values())
 #para obtener todas las claves y valores en pares
 
 print(personas.items())
+
+print(f"estan atendiendo a {2}")
