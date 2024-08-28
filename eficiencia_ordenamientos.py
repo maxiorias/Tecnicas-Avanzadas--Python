@@ -1,7 +1,6 @@
 import time
 import random
 
-# Genera una lista de prueba
 def generar_lista():
     return [random.randint(1, 1000000) for _ in range(6000)]
 
