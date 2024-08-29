@@ -27,3 +27,36 @@ tupla = (10, 10.5, "Hola", ["Python", "Java", "JavaScript"])
  
 for elemento in tupla:
     print(elemento) 
+
+#1. Escriba una función que muestre por consola un saludo personalizado. Por ejemplo ‘¡Hola mundo!’
+
+def saludo():
+
+       print("Hola Mundo!")
+
+saludo()
+
+#1. Escriba una función que reciba un nombre por parámetro y que luego muestre en pantalla ¡Hola <nombre>!
+
+def saludar(nombre):
+    print("Hola ", nombre)
+ 
+saludar("Maxi")
+#1. Cree una función que le pida el usuario su nombre y su edad, luego muestre en pantalla los resultados.
+
+def usuario(nombre, edad):
+    nombre = input("Ingrese un nombre: ")
+    edad = int(input("Ingrese una edad: "))
+    print("Nombre:", nombre)
+    print("Edad:", edad)
+    return nombre, edad
+ 
+nombre, edad = usuario(None, None)
+#1. Definir una función que reciba dos números por parámetros y que luego los sume.
+
+def suma(num1, num2):
+    return num1 + num2  
+ 
+ 
+ 
+print(suma(3, 2))

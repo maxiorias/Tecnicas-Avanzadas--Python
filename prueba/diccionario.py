@@ -36,4 +36,3 @@ print(personas.values())
 
 print(personas.items())
 
-print(f"estan atendiendo a {2}")
