@@ -15,6 +15,6 @@ gelatina1.imprimir()                                 # invoca al metodo imprimir
 
 print(" ")
 
-gelatina2 = Gelatina('limon', 'amarilla', 'considerable')
+gelatina2 = Gelatina('limon', 'amarilla', 'considerable') 
 
 gelatina2.imprimir()
