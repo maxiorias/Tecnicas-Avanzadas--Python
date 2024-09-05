@@ -1,4 +1,4 @@
-# Algoritmo de ordenamiento seleccionado
+# Algoritmo de ordenamiento insercion 
 def ordenamiento_insercion(lista):
     for i in range(1, len(lista)):
         j = i
